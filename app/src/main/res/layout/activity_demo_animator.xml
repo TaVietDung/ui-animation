@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/tvAnimation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnScaleX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scale X" />
+
+        <Button
+            android:id="@+id/btnScaleY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scale Y" />
+
+        <Button
+            android:id="@+id/btnTransX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trans X" />
+
+        <Button
+            android:id="@+id/btnTransY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trans Y" />
+
+        <Button
+            android:id="@+id/btnAlpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alpha" />
+
+        <Button
+            android:id="@+id/btnSquare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Square" />
+    </LinearLayout>
+</ScrollView>
